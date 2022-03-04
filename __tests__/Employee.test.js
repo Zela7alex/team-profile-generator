@@ -1,3 +1,4 @@
+// Requiring Employee constructor from Employee.js file
 const Employee = require('../lib/Employee.js')
 
 // Tests new employee data 
