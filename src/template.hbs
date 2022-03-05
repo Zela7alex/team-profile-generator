@@ -1,34 +1,24 @@
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
 <body>
-    <header>
+    <header> 
         <h1>My Team </h1>
-    </header>  
+    </header>
+    {{#each this}}     
     <div class="card">
-        Jared
-        Manager
-        ID: 1123
-        Email: jared1234@gmail.com
+        {{name}}
+        {{role}}
+        ID: {{id}}
+        Email: {{email}}
     </div>
 
 
 
-    <div class="card">
-        Tom
-        Engineer
-        ID: 1152
-        Email: tom1212@gmail.com
-    </div>
-
-
-
+    {{/each}}
 </body>
-
 </html>
