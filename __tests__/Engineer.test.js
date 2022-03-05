@@ -7,4 +7,4 @@ test('creating new Engineer', () => {
 
     //Github property added to object
     expect(engineer.github).toEqual(expect.any(String))
-});
+})
